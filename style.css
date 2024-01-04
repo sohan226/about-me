@@ -13,6 +13,7 @@
     height: 100vh;
     margin: 5px;
     margin-bottom: 0;
+
 }
 
 .me img{
@@ -30,12 +31,12 @@
 
 }
 .me h1{
-    color:rgb(241, 237, 237);
-    font-size: 80px;
+    color:rgb(241, 231, 231);
+    font-size: 70px;
     text-align: center;
-    font-weight: 700px;
+    font-weight: 600px;
     padding-top: 23%;
-    font-family: 'Lato', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0cm;
 }
 .pa {
@@ -79,12 +80,16 @@
 .ffi{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    justify-content: center;
+    gap: 30px;
+    justify-content:center;
 }
 .ffi div{
     min-width: 100px;
 }
 .ffi h3{
     width: 100%;
+    text-align: center;
+}
+.ffi p{
+    text-align: justify;
 }
